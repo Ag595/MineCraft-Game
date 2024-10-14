@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-right: 2px solid #ccc;
+}
+
+#startButton {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+.tool {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.tool img {
+    width: 50px;
+    height: 50px;
+}
+
+#blocks img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.game-area {
+    width: 80%;
+    background-color: #87CEEB; 
+    display: grid;
+    grid-template-columns: repeat(20, 30px); 
+    grid-template-rows: repeat(20, 30px);
+    gap: 1px;
+}
+
+.tile {
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    border: 1px solid #999;
+}
+
+.sand {
+    background-image: url('./images/sand.jpg'); 
+}
+
+.stone {
+    background-image: url('./images/stone.jpg');
+}
+
+.grass {
+    background-image: url('./images/grass.jpg'); 
+}

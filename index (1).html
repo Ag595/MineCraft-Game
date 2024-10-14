@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2D Minecraft Game</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <button id="startButton">Start Game</button>
+            <h3>World Size</h3>
+            <input id="worldSize" type="number" value="20" min="10" max="50">
+
+            <h3>Tools</h3>
+            <div id="tools">
+                <div class="tool" id="axe"><img src="./images/axe.jpg" alt="Axe"></div>
+                <div class="tool" id="pickaxe"><img src="./images/pickaxe.jpg" alt="Pickaxe"></div>
+                <div class="tool" id="shovel"><img src="./images/shovel.jpg" alt="Shovel"></div>
+            </div>
+
+            <h3>Blocks Inventory</h3>
+            <div id="blocks">
+                <div id="sandOption">Sand Blocks: 0</div>
+                <div id="stoneOption">Stone Blocks: 0</div>
+                <div id="grassOption">Grass Blocks: 0</div>
+            </div>
+        </div>
+
+       
+        <div id="gameArea" class="game-area"></div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
